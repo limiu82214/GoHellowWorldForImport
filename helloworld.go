@@ -1,5 +1,6 @@
 // Package 能做成套件給其他Go import的最小包
 // go.mod 中 module 應該為你的github路徑，這樣可以避免引用名稱不同的問題
+// -- 若為破獲性更新則在最後加上/v2 , /v3 等等
 // 檔名不要使用main.go 其餘應該都可以
 package GoHelloWorldForImport // 這個名稱將會是別人使用你的工具使用的名字 EX GoHelloWorldForImport.SayIt()
 
