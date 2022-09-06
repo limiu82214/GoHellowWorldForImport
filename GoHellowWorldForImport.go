@@ -1,8 +1,8 @@
 // Package 能做成套件給其他Go import的最小包
-package main
+package GoHellowWorldForImport
 
 import "fmt"
 
-func main() {
+func GoHellowWorldForImport() {
 	fmt.Println("Hello world")
 }
